@@ -18,7 +18,7 @@ function helloName( name ) {
   return ('Hello Joe!');
 }
 // Remember to call the function to test
-helloName();  // curious if this is redundant; looking into it further
+helloName();   // curious if this is redundant; looking into it further
 console.log(helloName()); // calling the function to return personalized message
 
 
@@ -34,9 +34,12 @@ console.log(addNumbers());
 
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree( ){
-
+function multiplyThree( firstNumber, secondNumber, thirdNumber) {
+  let answer = 2 * 2 * 2;
+  return answer;
 }
+  // calling the function to return the values multiplied by each other
+console.log('Question 4:', multiplyThree());
 
 
 // 5. Function that will return true if a number is positive, 
